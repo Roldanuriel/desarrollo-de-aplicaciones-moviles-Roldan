@@ -1,6 +1,7 @@
 import { Platform, StyleSheet, Text, View, StatusBar } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import CardBasico from '../components/CardBasico';
+import CardImg from '../components/CardImg';
 
 
 
@@ -11,7 +12,9 @@ export default function HomePrincipal() {
         <View style={styles.main}>
             <Text style={styles.title}>Pagina Principal</Text>
             <CardBasico />
+            <CardImg />
         </View>
+            
         
     );
 }
