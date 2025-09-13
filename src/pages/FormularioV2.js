@@ -1,6 +1,5 @@
-
 import { StyleSheet, View, Platform, StatusBar, Text, ScrollView, Image,TouchableOpacity } from "react-native";
-import Icon from 'react-native-vector-icons/FontAwesome';
+import { FontAwesome,Ionicons } from '@expo/vector-icons';
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function FormularioV2() {
@@ -8,7 +7,10 @@ export default function FormularioV2() {
         <SafeAreaView style={style.main}>
             <ScrollView>
                 <Text style={style.Title}>Formulario V2</Text>
-                <View style={style.contar}>
+                 <View style={style.contar}>
+                    <TouchableOpacity style={style.salida}>
+                        <Ionicons name="close" size={25} />
+                    </TouchableOpacity>
                     <Image style={style.imagen} source={{ uri: 'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/03/avatar-facebook-2632445.jpg?tf=3840x' }} />
                     <Text style={style.name}>Roldan Uriel Arcadio Avila</Text>
                     <View style={style.InfoCont}>
@@ -25,7 +27,7 @@ export default function FormularioV2() {
                     </View>
                     {/* Boton Grande con icono */}
                     <TouchableOpacity style={style.botonGrandeiCON}>
-                        <Icon name="save" size={20} color="#ffffff" style={style.iconIZQ} />
+                        <FontAwesome name="save" size={20} color="#ffffff" style={style.iconIZQ} />
                         <Text style={style.textoBotonGrande}>Guardar</Text>
                     </TouchableOpacity>
                 </View>
@@ -127,5 +129,12 @@ const style = StyleSheet.create({
         justifyContent: 'center',
         paddingVertical: 12,
         borderRadius: 15,
+    },
+    salida:{
+        alignSelf:'flex-end',
+        marginRight:-10,        
+        backgroundColor:'#ffffff',
+        borderRadius:20,
+        padding:5,
     },
 });
