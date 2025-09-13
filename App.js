@@ -2,8 +2,8 @@
 // import Botones from './src/pages/Botones';
 // import Botones2 from './src/pages/Botones2';
 //import Homeprincipal from './src/pages/HomePrincipal';
-import Formulario from './src/components/Formulario';
-
+//import Formulario from './src/components/Formulario';
+import FormularioV2 from './src/pages/FormularioV2';
 
 
 function App() {
@@ -12,7 +12,8 @@ function App() {
     //<Botones/>
     // <Botones2/>
     //<Homeprincipal/>
-    <Formulario/>
+    //<Formulario/>
+    <FormularioV2/>
  
   );
 }
