@@ -3,8 +3,8 @@
 // import Botones2 from './src/pages/Botones2';
 //import Homeprincipal from './src/pages/HomePrincipal';
 //import Formulario from './src/components/Formulario';
-import FormularioV2 from './src/pages/FormularioV2';
-
+//import FormularioV2 from './src/pages/FormularioV2';
+import ListaAlumnos from "./src/pages/Lista-Alumnos/ListaAlumnos";  
 
 function App() {
   return (
@@ -13,7 +13,9 @@ function App() {
     // <Botones2/>
     //<Homeprincipal/>
     //<Formulario/>
-    <FormularioV2/>
+    //<FormularioV2/>
+    <ListaAlumnos/>
+
  
   );
 }
