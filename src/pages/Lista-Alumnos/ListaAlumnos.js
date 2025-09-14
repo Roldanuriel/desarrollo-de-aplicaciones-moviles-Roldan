@@ -18,6 +18,7 @@ const ListaAlumnos = () => {
             <ScrollView style={{ padding: 10 }}>
                 <Text style={style.titulo2}>Alumnos de Aplicaciones Moviles</Text>
                 {/* Alumno 1  */}
+                  {[1,2,3,4,5,6,7,8,9,10].map(( ) => (
                 <View style={style.card}>
                     <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
                     <View style={style.cardinfo}>
@@ -28,139 +29,7 @@ const ListaAlumnos = () => {
                         </TouchableOpacity>
                     </View>
                 </View>
-                {/* Alumno 2  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                {/* Alumno 3  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                {/* Alumno 4  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                {/* Alumno 5  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                {/* Alumno 6  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                {/* Alumno 7  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                {/* Alumno 8  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                {/* Alumno 9  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                {/* Alumno 10  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                 {/* Alumno 11  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                 {/* Alumno 12  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-                 {/* Alumno 13  */}
-                <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
-                    <View style={style.cardinfo}>
-                        <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
-                        <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
-                        <TouchableOpacity style={style.saveButton}>
-                            <Text style={style.saveButtonText}>Ver mas</Text>
-                        </TouchableOpacity>
-                    </View>
-                </View>
-
+                  ))}
             </ScrollView>
             {/* Fin del contenido (Lista de alumnos) */}
         </View>
@@ -199,7 +68,7 @@ const style = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
         marginTop: 20,
-        color: '#000000ff',
+        color: '#fff3f3ff',
     },
     username: {
         fontFamily: 'arial',
