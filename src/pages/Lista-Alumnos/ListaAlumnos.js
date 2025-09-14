@@ -20,7 +20,7 @@ const ListaAlumnos = () => {
                 {/* Alumno 1  */}
                   {[1,2,3,4,5,6,7,8,9,10].map(( ) => (
                 <View style={style.card}>
-                    <Image style={style.avatar} source={{ uri: 'https://tse3.mm.bing.net/th/id/OIP.oX-SBg3T3WoH1vy9yv6bNAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3' }} />
+                    <Image style={style.avatar} source={{ uri: 'https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2022/03/avatar-facebook-2632445.jpg?itok=humq0Qgg' }} />
                     <View style={style.cardinfo}>
                         <Text style={style.username}>Roldan Uriel Arcadio Avila</Text>
                         <Text style={style.userdetails}>Ing. en Sistemas Computacionales</Text>
@@ -32,6 +32,23 @@ const ListaAlumnos = () => {
                   ))}
             </ScrollView>
             {/* Fin del contenido (Lista de alumnos) */}
+              {/* navbar */}
+            <View style={style.navbar}>
+                <View style={style.navItem}>
+                    <Icon name="home" size={20} />
+                    <Text style={style.navText}>Inicio</Text>
+                </View>
+                <View style={style.navItem}>
+                    <Icon name="save" size={20} />
+                    <Text style={style.navText}>Buscar</Text>
+                </View>
+                <View style={style.navItem}>
+                    <Icon name="user" size={20} />
+                    <Text style={style.navText}>Perfil</Text>
+                </View>
+                
+            </View>
+            {/* fin del navbar */}
         </View>
     )
 }
@@ -113,4 +130,20 @@ const style = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
     },
+     navbar: {
+        height: 70,
+        backgroundColor: '#ffffffff',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-around',
+        borderTopWidth: 1,
+    },
+    navItem: {
+        alignItems: 'center',
+    },
+    navText: {
+        fontSize: 12,
+        color: '#000000',
+        marginTop: 4,
+      },
 });
